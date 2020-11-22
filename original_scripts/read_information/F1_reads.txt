@@ -1,0 +1,1 @@
+/lustre3/home/takagi-hiroki/fastq/FASTQ_Filtering_program_170710_GW/all/q20p80/sep_pair/all_Fq20p80S_2.1.gz	/lustre3/home/takagi-hiroki/fastq/FASTQ_Filtering_program_170710_GW/all/q20p80/sep_pair/all_Fq20p80S_2.2.gz

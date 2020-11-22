@@ -1,0 +1,32 @@
+In put P1
+/lustre7/home/lustre3/nori-iso/Filtered_FASTAQ/sep_pair/CHOY_Fq20p80S_1.1.gz	/lustre7/home/lustre3/nori-iso/Filtered_FASTAQ/sep_pair/CHOY_Fq20p80S_1.2.gz
+/lustre7/home/lustre3/nori-iso/Filtered_FASTAQ/sep_pair/CHOY_Fq20p80S_2.1.gz	/lustre7/home/lustre3/nori-iso/Filtered_FASTAQ/sep_pair/CHOY_Fq20p80S_2.2.gz
+/lustre7/home/lustre3/nori-iso/Filtered_FASTAQ/sep_pair/CHOY_Fq20p80S_3.1.gz	/lustre7/home/lustre3/nori-iso/Filtered_FASTAQ/sep_pair/CHOY_Fq20p80S_3.2.gz
+/lustre7/home/lustre3/nori-iso/Filtered_FASTAQ/sep_pair/CHOY_Fq20p80S_4.1.gz	/lustre7/home/lustre3/nori-iso/Filtered_FASTAQ/sep_pair/CHOY_Fq20p80S_4.2.gz
+In put P2
+/lustre7/home/lustre3/nori-iso/Filtered_FASTAQ/Kohiki/sep_pair/kohiki_Fq20p80S_21.1.gz	/lustre7/home/lustre3/nori-iso/Filtered_FASTAQ/Kohiki/sep_pair/kohiki_Fq20p80S_21.2.gz
+/lustre7/home/lustre3/nori-iso/Filtered_FASTAQ/Kohiki/sep_pair/kohiki_Fq20p80S_22.1.gz	/lustre7/home/lustre3/nori-iso/Filtered_FASTAQ/Kohiki/sep_pair/kohiki_Fq20p80S_22.2.gz
+/lustre7/home/lustre3/nori-iso/Filtered_FASTAQ/Kohiki/sep_pair/kohiki_Fq20p80S_23.1.gz	/lustre7/home/lustre3/nori-iso/Filtered_FASTAQ/Kohiki/sep_pair/kohiki_Fq20p80S_23.2.gz
+/lustre7/home/lustre3/nori-iso/Filtered_FASTAQ/Kohiki/sep_pair/kohiki_Fq20p80S_24.1.gz	/lustre7/home/lustre3/nori-iso/Filtered_FASTAQ/Kohiki/sep_pair/kohiki_Fq20p80S_24.2.gz
+In put A_bulk
+/lustre7/home/lustre3/nori-iso/Filtered_FASTAQ/kc_flower_no/q20p80/sep_pair/kc_flower_no_Fq20p80S_1.1.gz	/lustre7/home/lustre3/nori-iso/Filtered_FASTAQ/kc_flower_no/q20p80/sep_pair/kc_flower_no_Fq20p80S_1.2.gz
+/lustre7/home/lustre3/nori-iso/Filtered_FASTAQ/kc_flower_no/q20p80/sep_pair/kc_flower_no_Fq20p80S_2.1.gz	/lustre7/home/lustre3/nori-iso/Filtered_FASTAQ/kc_flower_no/q20p80/sep_pair/kc_flower_no_Fq20p80S_2.2.gz
+/lustre7/home/lustre3/nori-iso/Filtered_FASTAQ/kc_flower_no/q20p80/sep_pair/kc_flower_no_Fq20p80S_3.1.gz	/lustre7/home/lustre3/nori-iso/Filtered_FASTAQ/kc_flower_no/q20p80/sep_pair/kc_flower_no_Fq20p80S_3.2.gz
+In put B_bulk
+/lustre7/home/lustre3/nori-iso/Filtered_FASTAQ/IPU_bulk6_kc_flower_yes/q20p80/sep_pair/IPU_bulk6_kc_flower_yes_Fq20p80S_29.1.gz	/lustre7/home/lustre3/nori-iso/Filtered_FASTAQ/IPU_bulk6_kc_flower_yes/q20p80/sep_pair/IPU_bulk6_kc_flower_yes_Fq20p80S_29.2.gz
+/lustre7/home/lustre3/nori-iso/Filtered_FASTAQ/IPU_bulk6_kc_flower_yes/q20p80/sep_pair/IPU_bulk6_kc_flower_yes_Fq20p80S_30.1.gz	/lustre7/home/lustre3/nori-iso/Filtered_FASTAQ/IPU_bulk6_kc_flower_yes/q20p80/sep_pair/IPU_bulk6_kc_flower_yes_Fq20p80S_30.2.gz
+/lustre7/home/lustre3/nori-iso/Filtered_FASTAQ/IPU_bulk6_kc_flower_yes/q20p80/sep_pair/IPU_bulk6_kc_flower_yes_Fq20p80S_31.1.gz	/lustre7/home/lustre3/nori-iso/Filtered_FASTAQ/IPU_bulk6_kc_flower_yes/q20p80/sep_pair/IPU_bulk6_kc_flower_yes_Fq20p80S_31.2.gz
+/lustre7/home/lustre3/nori-iso/Filtered_FASTAQ/IPU_bulk6_kc_flower_yes/q20p80/sep_pair/IPU_bulk6_kc_flower_yes_Fq20p80S_32.1.gz	/lustre7/home/lustre3/nori-iso/Filtered_FASTAQ/IPU_bulk6_kc_flower_yes/q20p80/sep_pair/IPU_bulk6_kc_flower_yes_Fq20p80S_32.2.gz
+/lustre7/home/lustre3/nori-iso/Filtered_FASTAQ/fower_yes/q20p80/sep_pair/fower_yes_Fq20p80S_1.1.gz	/lustre7/home/lustre3/nori-iso/Filtered_FASTAQ/fower_yes/q20p80/sep_pair/fower_yes_Fq20p80S_1.2.gz
+/lustre7/home/lustre3/nori-iso/Filtered_FASTAQ/fower_yes/q20p80/sep_pair/fower_yes_Fq20p80S_2.1.gz	/lustre7/home/lustre3/nori-iso/Filtered_FASTAQ/fower_yes/q20p80/sep_pair/fower_yes_Fq20p80S_2.2.gz
+/lustre7/home/lustre3/nori-iso/Filtered_FASTAQ/fower_yes/q20p80/sep_pair/fower_yes_Fq20p80S_3.1.gz	/lustre7/home/lustre3/nori-iso/Filtered_FASTAQ/fower_yes/q20p80/sep_pair/fower_yes_Fq20p80S_3.2.gz
+/lustre7/home/lustre3/nori-iso/Filtered_FASTAQ/fower_yes/q20p80/sep_pair/fower_yes_Fq20p80S_4.1.gz	/lustre7/home/lustre3/nori-iso/Filtered_FASTAQ/fower_yes/q20p80/sep_pair/fower_yes_Fq20p80S_4.2.gz
+/lustre7/home/lustre3/nori-iso/Filtered_FASTAQ/fower_yes/q20p80/sep_pair/fower_yes_Fq20p80S_5.1.gz	/lustre7/home/lustre3/nori-iso/Filtered_FASTAQ/fower_yes/q20p80/sep_pair/fower_yes_Fq20p80S_5.2.gz
+/lustre7/home/lustre3/nori-iso/Filtered_FASTAQ/fower_yes/q20p80/sep_pair/fower_yes_Fq20p80S_6.1.gz	/lustre7/home/lustre3/nori-iso/Filtered_FASTAQ/fower_yes/q20p80/sep_pair/fower_yes_Fq20p80S_6.2.gz
+/lustre7/home/lustre3/nori-iso/Filtered_FASTAQ/fower_yes/q20p80/sep_pair/fower_yes_Fq20p80S_7.1.gz	/lustre7/home/lustre3/nori-iso/Filtered_FASTAQ/fower_yes/q20p80/sep_pair/fower_yes_Fq20p80S_7.2.gz
+/lustre7/home/lustre3/nori-iso/Filtered_FASTAQ/fower_yes/q20p80/sep_pair/fower_yes_Fq20p80S_8.1.gz	/lustre7/home/lustre3/nori-iso/Filtered_FASTAQ/fower_yes/q20p80/sep_pair/fower_yes_Fq20p80S_8.2.gz
+In put F1
+/lustre7/home/lustre3/nori-iso/Filtered_FASTAQ/IPU_bulk6_kc_F1/q20p80/sep_pair/IPU_bulk6_kc_F1_Fq20p80S_25.1.gz	/lustre7/home/lustre3/nori-iso/Filtered_FASTAQ/IPU_bulk6_kc_F1/q20p80/sep_pair/IPU_bulk6_kc_F1_Fq20p80S_25.2.gz
+/lustre7/home/lustre3/nori-iso/Filtered_FASTAQ/IPU_bulk6_kc_F1/q20p80/sep_pair/IPU_bulk6_kc_F1_Fq20p80S_26.1.gz	/lustre7/home/lustre3/nori-iso/Filtered_FASTAQ/IPU_bulk6_kc_F1/q20p80/sep_pair/IPU_bulk6_kc_F1_Fq20p80S_26.2.gz
+/lustre7/home/lustre3/nori-iso/Filtered_FASTAQ/IPU_bulk6_kc_F1/q20p80/sep_pair/IPU_bulk6_kc_F1_Fq20p80S_27.1.gz	/lustre7/home/lustre3/nori-iso/Filtered_FASTAQ/IPU_bulk6_kc_F1/q20p80/sep_pair/IPU_bulk6_kc_F1_Fq20p80S_27.2.gz
+/lustre7/home/lustre3/nori-iso/Filtered_FASTAQ/IPU_bulk6_kc_F1/q20p80/sep_pair/IPU_bulk6_kc_F1_Fq20p80S_28.1.gz	/lustre7/home/lustre3/nori-iso/Filtered_FASTAQ/IPU_bulk6_kc_F1/q20p80/sep_pair/IPU_bulk6_kc_F1_Fq20p80S_28.2.gz

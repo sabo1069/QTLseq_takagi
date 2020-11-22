@@ -1,0 +1,4 @@
+/lustre3/home/takagi-hiroki/fastq/FASTQ_Filtering_program_161212_NS/aokabu/q20p80/sep_pair/aokabu_Fq20p80S_8.1.gz	/lustre3/home/takagi-hiroki/fastq/FASTQ_Filtering_program_161212_NS/aokabu/q20p80/sep_pair/aokabu_Fq20p80S_8.2.gz
+/lustre3/home/takagi-hiroki/fastq/FASTQ_Filtering_program_161212_NS/aokabu/q20p80/sep_pair/aokabu_Fq20p80S_7.1.gz	/lustre3/home/takagi-hiroki/fastq/FASTQ_Filtering_program_161212_NS/aokabu/q20p80/sep_pair/aokabu_Fq20p80S_7.2.gz
+/lustre3/home/takagi-hiroki/fastq/FASTQ_Filtering_program_161212_NS/aokabu/q20p80/sep_pair/aokabu_Fq20p80S_6.1.gz	/lustre3/home/takagi-hiroki/fastq/FASTQ_Filtering_program_161212_NS/aokabu/q20p80/sep_pair/aokabu_Fq20p80S_6.2.gz
+/lustre3/home/takagi-hiroki/fastq/FASTQ_Filtering_program_161212_NS/aokabu/q20p80/sep_pair/aokabu_Fq20p80S_5.1.gz	/lustre3/home/takagi-hiroki/fastq/FASTQ_Filtering_program_161212_NS/aokabu/q20p80/sep_pair/aokabu_Fq20p80S_5.2.gz
