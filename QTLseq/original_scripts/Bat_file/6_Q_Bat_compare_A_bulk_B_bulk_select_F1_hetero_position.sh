@@ -1,4 +1,4 @@
-#! /bin/sh	
+#! /bin/sh
 #$ -S /bin/sh
 #$ -cwd
 
@@ -33,13 +33,10 @@ perl ../script/6_select_pileup_file.pl common_F1_hetero_snp_P1_A_bulk_B_bulk.pil
 
 perl ../script/6_s_add_simulation.pl m_common_F1_hetero_snp_P1_A_bulk_B_bulk.pileup ../simulation_result/${population_structure}_${individual_number}_individuals.txt
 Rscript ../script/7_QTLseq_sliding_window_170321.R s_m_common_F1_hetero_snp_P1_A_bulk_B_bulk.pileup ${window_size_Mb}000000 ${step_size_kb}000 ${howmany_snp_number}
-Rscript ../script/8_MutMap_graph_bulkA.R s_m_common_F1_hetero_snp_P1_A_bulk_B_bulk.pileup sliding_window_${window_size_Mb}_Mb_s_m_common_F1_hetero_snp_P1_A_bulk_B_bulk.pileup
-Rscript ../script/8_MutMap_graph_bulkB.R s_m_common_F1_hetero_snp_P1_A_bulk_B_bulk.pileup sliding_window_${window_size_Mb}_Mb_s_m_common_F1_hetero_snp_P1_A_bulk_B_bulk.pileup
-Rscript ../script/8_MutMap_graph_bulkD.R s_m_common_F1_hetero_snp_P1_A_bulk_B_bulk.pileup sliding_window_${window_size_Mb}_Mb_s_m_common_F1_hetero_snp_P1_A_bulk_B_bulk.pileup
+Rscript ../script/8_MutMap_graph_bulkA.R s_m_common_F1_hetero_snp_P1_A_bulk_B_bulk.pileup sliding_window_${window_size_Mb}_Mb_s_m_common_F1_hetero_snp_P1_A_bulk_B_bulk.pileup A_bulk B_bulk
+Rscript ../script/8_MutMap_graph_bulkB.R s_m_common_F1_hetero_snp_P1_A_bulk_B_bulk.pileup sliding_window_${window_size_Mb}_Mb_s_m_common_F1_hetero_snp_P1_A_bulk_B_bulk.pileup A_bulk B_bulk
+Rscript ../script/8_MutMap_graph_bulkD.R s_m_common_F1_hetero_snp_P1_A_bulk_B_bulk.pileup sliding_window_${window_size_Mb}_Mb_s_m_common_F1_hetero_snp_P1_A_bulk_B_bulk.pileup A_bulk B_bulk
 
 
 
 cd ../
-
-
-

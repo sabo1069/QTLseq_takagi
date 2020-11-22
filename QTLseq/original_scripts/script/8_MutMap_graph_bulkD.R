@@ -2,6 +2,8 @@
 Arg<-commandArgs(TRUE)
 data_snp<- c(Arg[1])
 data_sliding<- c(Arg[2])
+bulkA<- c(Arg[3])
+bulkB<- c(Arg[4])
 ##############################################################
 SNP_INDEX<-read.table(data_snp,header=F, as.is=TRUE, quote="", comment.char="", sep="\t")
 WINDOW_AVE<-read.table(data_sliding,header=F, quote="", comment.char="", sep="\t")
@@ -23,7 +25,7 @@ for (chr_number in chr){
 	}
 	print(chr_number_count)
 	if(chr_number_count==1){
-		out_put_A<-paste("./graph_A_bulk_B_bulk", graph_count,".png", sep="")
+		out_put_A<-paste("./graph_", bulkA,"_",bulkB,"_", graph_count,".png", sep="")
 		png(file=out_put_A,width=2000,height=3000)
 		par(mfcol=c(5, 2))
 		par(ps=30,lwd=4,bty="l",tck = -0.02)
