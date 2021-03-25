@@ -10,9 +10,9 @@ my $samtools_PATH=$ARGV[3];
 
 my $Public_fa_fai_rename=$Public_fa_fai;
 $Public_fa_fai_rename=~s/\S+\///;
-my $Public_fa_fai_rename1="ex_for_pileup_".$Public_fa_fai_rename;
-my $Public_fa_fai_rename2="ex_for_bam_devi_".$Public_fa_fai_rename;
-my $Public_fa_fai_rename3="ex_for_cat_pileup_".$Public_fa_fai_rename;
+my $Public_fa_fai_rename1="ex_for_pileup_data.txt";
+my $Public_fa_fai_rename2="ex_for_bam_devi.txt";
+my $Public_fa_fai_rename3="ex_for_cat_pileup.txt";
 open OUTPUT0, ">$Public_fa_fai_rename2\n" or die "cannnot open output";
 open OUTPUT1, ">$Public_fa_fai_rename1\n" or die "cannnot open output";
 open OUTPUT2, ">$Public_fa_fai_rename3\n" or die "cannnot open output";
@@ -28,8 +28,8 @@ while (my $file = <FILE1>) {
     my $out_bam_file = $colom1[0]."_sort.bam";
     my $out_pileup_file = $colom1[0]."_sort.pileup";
     print OUTPUT0 "$samtools_PATH view -b input.bam $colom1[0] > out_bam_file\n";
-    print OUTPUT1 "perl ../script/snp_index_calc_from_pileup_without_index_multi.pl $out_bam_file ${public_reference_fasta} $samtools_PATH\n";
-    print OUTPUT1 "perl ../script/snp_index_calc_from_pileup_without_index_multi.pl $out_bam_file ${public_reference_fasta} $samtools_PATH\n";
+    print OUTPUT1 "perl ../script/snp_index_calc_from_pileup_without_index.pl $out_bam_file ${public_reference_fasta} $samtools_PATH\n";
+
 
     if ($read_count==1){
 

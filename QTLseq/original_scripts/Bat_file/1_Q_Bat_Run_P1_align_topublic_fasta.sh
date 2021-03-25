@@ -1,4 +1,4 @@
-#! /bin/sh	
+#! /bin/sh
 #$ -S /bin/sh
 #$ -cwd
 #/usr/local/bin/samtools Version: 1.3.1 (using htslib 1.3.1)
@@ -64,9 +64,18 @@ $samtools_PATH view -b -F 4 P1_all_merge_rmdup.bam > P1_all_mapped.bam
 $samtools_PATH sort -T P1_temp -@ ${used_cpu} P1_all_mapped.bam -o P1_all_mapped_sort.bam
 $samtools_PATH index P1_all_mapped_sort.bam
 
-perl ../script/snp_index_calc_from_pileup_without_index.pl P1_all_mapped_sort.bam ${public_reference_fasta} $samtools_PATH
+perl ../script/making_pileup.pl  ${work_dir}/public_fasta/${public_reference}.fai P1_all_mapped_sort.bam ${public_reference_fasta} $samtools_PATH
+cat ex_for_bam_devi.txt|xargs -P ${used_cpu} -I % sh -c %
+cat ex_for_pileup_data.txt|xargs -P${used_cpu} -I % sh -c %
+cat ex_for_cat_pileup.txt|xargs -P${used_cpu} -I % sh -c %
+
+# perl ../script/snp_index_calc_from_pileup_without_index.pl P1_all_mapped_sort.bam ${public_reference_fasta} $samtools_PATH
+
+
 perl ../script/select_pileup_file.pl P1_all_mapped_sort.pileup ${filtered_depth} ${the_snp_index_threshold_for_exchanging_with_public_ref}
 perl ../script/make_consensus.pl -ref ${public_reference_fasta} m_P1_all_mapped_sort.pileup >P1_ref.fa
+
+
 
 ${bwa_PATH} index -p P1_ref.fa -a is P1_ref.fa
 
