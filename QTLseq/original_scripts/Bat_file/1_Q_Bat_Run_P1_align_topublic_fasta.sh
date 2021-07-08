@@ -69,7 +69,7 @@ cat ex_for_bam_devi.txt|xargs -P ${used_cpu} -I % sh -c %
 cat ex_for_pileup_data.txt|xargs -P${used_cpu} -I % sh -c %
 cat ex_for_cat_pileup.txt|xargs -P${used_cpu} -I % sh -c %
 
-# perl ../script/snp_index_calc_from_pileup_without_index.pl P1_all_mapped_sort.bam ${public_reference_fasta} $samtools_PATH
+perl ../script/snp_index_calc_from_pileup_without_index.pl P1_all_mapped_sort.bam ${public_reference_fasta} $samtools_PATH
 
 
 perl ../script/select_pileup_file.pl P1_all_mapped_sort.pileup ${filtered_depth} ${the_snp_index_threshold_for_exchanging_with_public_ref}
